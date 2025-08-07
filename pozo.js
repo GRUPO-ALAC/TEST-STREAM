@@ -21,13 +21,13 @@ async function init() {
     content2.style.display = "none";
     content3.style.display = "block";
     content4.style.display = "none";
-  }, 217000);
+  }, 7000);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "none";
     content3.style.display = "none";
     content4.style.display = "block";
-  }, 218500);
+  }, 8500);
 }
 
 // Configurar HLS.js para reproducir el stream
