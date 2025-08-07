@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tinka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+<body>
+    <main>
+        <div id="contenido" style="display: none;" class="content">
+            <img src="img/INICIO.png">
+        </div>
+        <div id="contenido2" style="display: none;" class="content2">
+            <img style="z-index: 2;" src="img/BARRAS.png">
+            <video id="reproductor" class="videoLive" controls autoplay muted></video>
+        </div>
+        <div id="contenido3" style="display: none;" class="content3">
+            <img src="img/FIN2.png">
+        </div>
+        <div id="contenido4" style="display: none;" class="content4">
+            <img src="img/FIN.png">
+        </div>
+    </main>
+
+    <script src="pozo.js"></script>
+</body>
+
+</html>
